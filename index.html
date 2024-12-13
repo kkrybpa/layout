@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>using internal css</title>
+        <style>
+            html
+            {
+                scroll-behavior: smooth;
+            }
+            body 
+            {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            nav
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #8c52ff;
+                color: white;
+                padding-left: 2%;
+                padding-right: 2%;
+
+            }
+            nav a
+            {
+                text-decoration: none;
+                color: white;
+                font-size: 1.3rem;
+                padding-left: 10px;
+            }
+            nav h1
+            {
+                font-size: 1.6rem;
+            }
+            section div
+            {
+                height: 500px;
+                width: 100%;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            section div h1
+            {
+                font-size: 4rem;
+            }
+
+            .hero-section
+            {
+               
+                background-color: #004aad;
+                
+            }
+            .about-section
+            {
+                
+                background-color: #0097b2;
+                
+            }
+            .features-section
+            {
+                
+                background-color: #38b6ff;
+                
+            }
+            .testimonials-section
+            {
+                
+                background-color: #8c52ff;
+               
+            }
+            footer
+            {
+                height: 200px;
+                width: 100%;
+                background-color: #333;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            footer h1
+            {
+                font-size: 2rem;
+            }
+        
+
+        </style>
+    </head>
+
+    <body>
+         <nav>
+            <h1>Logo</h1>
+            <div>
+                <a href="#">Home</a>
+                <a href="#aboutsection">About</a>
+                <a href="#featuresSection">Features</a>
+                <a href="#testimonialssection">Testimonials</a>
+
+            </div>
+         </nav>
+        <section id="heroSection">
+            <div class="hero-section"> 
+                <h1>Hero Section</h1>   
+            </div>
+        </section>
+        <section id="aboutSection">
+            <div class="about-section"> 
+                <h1>About Section</h1>   
+            </div>
+        </section>
+        <section id="featuresSection">
+            <div class="features-section"> 
+                <h1>Features Section</h1>   
+            </div>
+        </section>
+        <section id="testimonialssection">
+            <div class="testimonials-section"> 
+                <h1>Testimonials Section</h1>   
+            </div>
+        </section>
+        <footer>
+            <h1>Footer Section</h1>
+         </footer>
+
+
+
+
+
+
+    </body>
+</html>
